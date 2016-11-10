@@ -95,8 +95,9 @@ $(document).ready(function () {
 				$(this).stop().animate({height:"214px"},"fast").siblings("dl").stop().animate({height:"52px"},"fast")
 			})
 	
-	/*此处是手风琴*/
-	
+	/*此处是布局右边固定的盒子*/
+	var oDivright=document.getElementById("rightdiv");
+	oDivright.style.height=document.body.clientHeight+"px";
 })
 
 
